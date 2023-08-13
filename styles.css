@@ -1,0 +1,1621 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(224, 214, 214);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*INDEX.HTML*/
+/* HOME */
+
+
+header .hero {
+  background: rgb(0, 0, 0);
+  background-image: url(Cody\ Images/Landing\ Page\ Images/phase2-cody-800x250.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  height: 300px;
+  position: relative;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: rgb(36, 30, 30);
+  float: center;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  transition: top 0.5s;
+  word-spacing: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* NAVBAR LOGO*/
+
+.logo {
+  background-image: url(Cody\ Images/Landing\ Page\ Images/GR-200x200.png);
+  background-position: center;
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  left: 20px;
+  top: 10px;
+  display: flex;
+  color: aqua;
+  text-align: left;
+  word-spacing: normal;
+  flex-direction: column;
+  text-indent: -9999px;
+  position: relative;
+}
+/*NAVBAR LINKS*/
+
+a {
+  color: orangered;
+  bottom: 30px;
+  right: 40px;
+  margin: 5px;
+  text-transform: lowercase;
+  text-transform: none;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+ color: black;
+}
+
+/* RESPONSIVE RULES */
+
+/*SECTION 1*/
+/*SECTION 1 BACKGROUND*/
+
+.flex-container1 {
+  background-color: rgb(72, 68, 62);
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 500px;
+}
+
+/*SUMMARY TITLE*/
+
+.section1 h1,
+ul {
+  color: orangered;
+  display: flex;
+  right: 200px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+/*SUMMARY TOP LINE*/
+
+.summary1 {
+  display: flex;
+  border-top: 5px solid whitesmoke;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  width: 500px;
+  margin-left: 70px;
+}
+
+/*SUMMARY PARAGRAPH*/
+
+.summaryPAR {
+  margin-left: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*SECTION 2*/
+/*SECTION 2 BACKGROUND*/
+
+.section2 {
+  background-color: rgb(72, 68, 62);
+  margin-left: 340px;
+  border-left: 5px solid whitesmoke;
+  width: 40%;
+}
+
+/*SECTION 2 RIGHT IMAGE*/
+
+img {
+  position: relative;
+  margin: 0;
+  left: 20px;
+}
+
+.description {
+  position: relative;
+  margin-top: 20px;
+  font-style: italic;
+  text-align: center;
+  left: 20px;
+}
+
+/*SECTION 3*/
+
+.flex-container2 {
+  background-color: rgb(60, 58, 54);
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*DIRECTORY BOXES*/
+
+.flex {
+  background-color: rgb(32, 24, 24);
+  width: 325px;
+  height: 400px;
+  margin: 40px 20px 80px 20px;
+  padding: 5px;
+  border: 2px solid orangered;
+}
+
+/*TITLE BOX*/
+
+.directory {
+  background-color: black;
+  margin-top: -20px;
+  height: 80px;
+  text-align: center;
+}
+
+/*TITLE*/
+
+.directTitle {
+  color: orangered;
+  position: relative;
+  top: 22px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*4 PAGES LINKS*/
+
+/*LEFT*/
+
+.link1 {
+  color: green;
+  background-color: aqua;
+  background-image: url(Cody\ Images/Landing\ Page\ Images/212th-325x250.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -5px;
+  bottom: 5px;
+  display: flex;
+  margin: 0px;
+  padding-left: 8px;
+  height: 250px;
+  width: 325px;
+  text-indent: -999px;
+}
+
+/*TEXT DIVIDER 1*/
+
+.imgline1 {
+  display: flex;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+  position: relative;
+  margin: -5px;
+}
+
+/*7TH SKY CORPS*/
+
+.skycorps {
+  color: orangered;
+  display: flex;
+  position: relative;
+  left: 30px;
+  top: 15px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.leftPAR {
+  display: flex;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/*CENTER LEFT*/
+
+.link2 {
+  background-color: aqua;
+  background-image: url(Cody\ Images/Landing\ Page\ Images/Kamino-325x250.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: green;
+  display: flex;
+  height: 250px;
+  width: 325px;
+  position: relative;
+  left: -5px;
+  bottom: 5px;
+  margin: 0;
+  padding-left: 8px;
+  text-indent: -9999px;
+}
+
+/*TEXT DIVIDER 2*/
+
+.imgline2 {
+  display: flex;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+  position: relative;
+  margin: -5px;
+}
+
+/*KAMINO*/
+
+.kamino {
+  color: orangered;
+  display: flex;
+  position: relative;
+  left: 30px;
+  top: 15px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.center-leftPAR {
+  display: flex;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/*CENTER RIGHT*/
+
+.link3 {
+  background-color: aqua;
+  background-image: url(Cody\ Images/Landing\ Page\ Images/corusantspace-325x250.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: green;
+  display: flex;
+  height: 250px;
+  width: 325px;
+  position: relative;
+  left: -5px;
+  bottom: 5px;
+  margin: 0;
+  padding-left: 8px;
+  text-indent: -999px;
+}
+
+/*TEXT DIVIDER 3*/
+
+.imgline3 {
+  display: flex;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+  position: relative;
+  margin: -5px;
+}
+
+/*CLONE WARS*/
+
+.clonewars {
+  color: orangered;
+  display: flex;
+  position: relative;
+  left: 30px;
+  top: 15px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.center-rightPAR {
+  display: flex;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/*CODY'S ARMOUR*/
+
+.link4 {
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-image: url(Cody\ Images/Landing\ Page\ Images/cody-armour-325x250.jpg);
+  background-size: cover;
+  color: green;
+  display: flex;
+  height: 250px;
+  width: 325px;
+  position: relative;
+  left: -5px;
+  bottom: 5px;
+  margin: 0;
+  padding-left: 8px;
+  text-indent: -999999px;
+}
+
+.imgline4 {
+  display: flex;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+  position: relative;
+  margin: -5px;
+}
+
+.armour {
+  color: orangered;
+  display: flex;
+  position: relative;
+  left: 30px;
+  top: 15px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.rightPAR {
+  display: flex;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/*FOOTER*/
+
+footer {
+  display: inline-block;
+  background-color: rgb(32, 24, 24);
+  height: 300px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*ICONS*/
+
+.footer-logo {
+  display: flex;
+  background-color: rgb(32, 24, 24);
+  background-image: url(Cody\ Images/Landing\ Page\ Images/GR-100x100.png);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 85px;
+}
+
+.icon-footer {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  background-color: rgb(32, 24, 24);
+  margin-top: 20px;
+  height: 70px;
+  top: 10px;
+  left: 1150px;
+}
+
+.social-links {
+  list-style: none;
+}
+
+a.icons {
+  display: flex;
+  color: green;
+  font-size: 20px;
+  background-color: rgb(125, 120, 120);
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  padding: 5px;
+  position: relative;
+  right: 50px;
+}
+
+.facebook .icons {
+  background-image: url(Cody\ Images/Landing\ Page\ Images/f_logo_50x50.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  text-indent: 9999px;
+}
+
+.instagram .icons {
+  background-image: url(Cody\ Images/Landing\ Page\ Images/Instagram-50x50.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  text-indent: 9999px;
+}
+
+.twitter .icons {
+  background-image: url(Cody\ Images/Landing\ Page\ Images/Twitter-50x50.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  text-indent: 99999px;
+}
+
+.youtube .icons {
+  background-image: url(Cody\ Images/Landing\ Page\ Images/Youtube-50x50.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  text-indent: 99999px;
+}
+
+/*FOOTER LINKS*/
+
+.lower-container {
+  display: flow-root;
+  background-color: rgb(32, 24, 24);
+  height: 150px;
+  width: 100%;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-line {
+  display: flex;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  list-style: none;
+  font-weight: bold;
+  text-transform: none;
+  text-decoration: none;
+}
+/*PRIVACY.HTML*/
+
+/*PRIVACY POLICY*/
+/*PRIVACY BACKGROUND*/
+
+.priv-container1 {
+  display: flex;
+  background-color: rgb(72, 68, 62);
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+}
+
+/*PRIVACY TITLE*/
+
+.title {
+  display: flex;
+  margin-top: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.titleLine {
+  display: flex;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+  width: 425px;
+}
+
+.title,
+h1 {
+  display: inline;
+  color: orangered;
+  white-space: nowrap;
+}
+
+/*PRIVACY PARAGRAPH*/
+
+.privacybox {
+  display: flex;
+  background-color: rgb(72, 68, 62);
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  height: 380px;
+}
+
+.privacyPAR {
+  display: flex;
+  background-color: blue;
+  width: 180vh;
+  height: min-content;
+  color: white;
+  font-size: -8vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+}
+
+.priv-email {
+  display: contents;
+  color: orangered;
+  font-weight: bold;
+}
+
+.priv-index {
+  display: contents;
+  font-weight: bold;
+}
+
+em {
+  display: contents;
+}
+
+/* PRIVACY LIST 1*/
+
+/*7TH SKY CORPS*/
+
+/* GREGOR */
+
+.skycontainer1 {
+  background-color: rgb(72, 68, 62);
+  display: flex;
+  width: 100%;
+  height: 800px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.skysection1 {
+  display: flex;
+  margin-left: 20px;
+  padding: 0px;
+  align-self: center;
+}
+
+.gregordescription {
+  text-align: center;
+  margin-left: 40px;
+}
+
+/* SKYCORP PARAGRAPH 1*/
+
+.skysection2 {
+  display: inline;
+  background: rgb(72, 68, 62);
+  width: 520px;
+  height: 600px;
+  margin-left: 50px;
+  align-self: center;
+}
+
+.skytitle1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+.skypar1 {
+  display: flex;
+  color: white;
+  margin: 20px 30px 0 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  text-align: left;
+}
+
+.skygallery {
+  background-color: black;
+  margin-top: -20px;
+  height: 80px;
+  text-align: center;
+}
+
+.skygalleryTitle {
+  color: orangered;
+  position: relative;
+  top: 22px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* VEHICLES AND ARMOUR*/
+
+.skycontainer2 {
+  display: flex;
+  background: rgb(60, 58, 54);
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-bottom: 10px solid whitesmoke;
+}
+
+.skyflex {
+  display: flex;
+  background-color: rgb(32, 24, 24);
+  width: 350px;
+  height: 325px;
+  margin: 40px 20px 80px 20px;
+  padding: 5px;
+  border: 2px solid orangered;
+}
+
+
+.skyimage1 {
+  display: flex;
+  background-image: url(Cody\ Images/7th\ Sky\ Images/AT-TE-300x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skyimage2 {
+  display: flex;
+  background-image: url(Cody\ Images/7th\ Sky\ Images/AT-RT-300x300.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.skyimage3 {
+  display: flex;
+  background-image: url(Cody\ Images/7th\ Sky\ Images/phase1-212th-300x300.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skyimage4 {
+  display: flex;
+  background-image: url(Cody\ Images/7th\ Sky\ Images/phase2-212th-300x300.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skyimage5 {
+  display: flex;
+  background-image: url(Cody\ Images/7th\ Sky\ Images/paratrooper-300x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skycontainer3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+
+/* SKY PARAGRAPHS */
+
+.skysection3 {
+  display: flex;
+  width: 50%;
+  height: 100px;
+  margin: 20px 0px 20px 0px;
+  justify-content: center;
+}
+
+.skysection4 {
+  display: flex;
+  width: 50%;
+  height: 100px;
+  margin: 20px 0px 20px 0px;
+  justify-content: center;
+}
+
+.skytitle2 {
+  display: flex;
+  color: orangered;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+
+.skycontainer4 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 400px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: center;
+}
+
+.skyparbox {
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+.skypar2 {
+  display: flex;
+  width: 50%;
+  margin: 20px 0px 20px 0px;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+}
+
+.skypar3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  margin: 20px 0px 20px 0px;
+  width: 50%;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+}
+
+.parcontent1 {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+}
+
+.parcontent2 {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+/* CLONE WARS*/
+
+.warscontainer1 {
+  background-color: rgb(72, 68, 62);
+  display: flex;
+  width: 100%;
+  height: 800px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.warsection1 {
+  display: flex;
+  margin-left: 20px;
+  padding: 0px;
+  align-self: center;
+  width: 500px;
+}
+
+.utapauDescription {
+  text-align: center;
+  margin-left: 40px;
+}
+
+/* SKYCORP PARAGRAPH 1*/
+
+.warsection2 {
+  display: inline;
+  background: rgb(72, 68, 62);
+  width: 520px;
+  height: 600px;
+  margin-left: 50px;
+  align-self: center;
+}
+
+.wartitle1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+.warpar1 {
+  display: flex;
+  color: white;
+  margin: 20px 0 0 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  text-align: left;
+}
+
+.wargallery {
+  background-color: black;
+  margin-top: -20px;
+  height: 80px;
+  text-align: center;
+}
+
+.wargalleryTitle {
+  color: orangered;
+  position: relative;
+  top: 22px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* MAJOR BATTLES */
+
+.warcontainer2 {
+  display: flex;
+  background: rgb(60, 58, 54);
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-bottom: 10px solid whitesmoke;
+}
+
+.warflex {
+  display: flex;
+  background-color: rgb(32, 24, 24);
+  width: 350px;
+  height: 325px;
+  margin: 40px 20px 80px 20px;
+  padding: 5px;
+  border: 2px solid orangered;
+}
+
+.warimage1 {
+  display: flex;
+  background-image: url(Cody\ Images/Clone\ Wars\ Images/Christophsis-CW-300x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.warimage2 {
+  display: flex;
+  background-image: url(Cody\ Images/Clone\ Wars\ Images/Ryloth-CW-300x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.warimage3 {
+  display: flex;
+  background: green;
+  background-image: url(Cody\ Images/Clone\ Wars\ Images/Geonosis-CW-300x300.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.warimage4 {
+  display: flex;
+  background: green;
+  background-image: url(Cody\ Images/Clone\ Wars\ Images/Citadel-CW-300x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.warimage5 {
+  display: flex;
+  background: green;
+  background-image: url(Cody\ Images/Clone\ Wars\ Images/Umbara-CW-300x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.warimgnumbers {
+  display: flex;
+  text-transform: bold;
+  color: black;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+/* WAR PARAGRAPHS */
+
+.warcontainer3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 120px;
+}
+
+.warsection4 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 100px;
+  margin: 20px 0px 20px 0px;
+  justify-content: center;
+}
+
+.warsection5 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 100px;
+  margin: 20px 0px 20px 0px;
+  justify-content: center;
+}
+
+.wartitle2 {
+  display: flex;
+  color: orangered;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+
+.wartitle3 {
+  display: flex;
+  color: orangered;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+
+.warcontainer4 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 900px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: space-around;
+}
+
+.warpar2 {
+  display: flex;
+  width: 40%;
+  margin: 20px 30px 20px 30px;
+  height: 900px;
+  justify-content: center;
+}
+
+.warparcontent1 {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+
+.warpar3 {
+  display: flex;
+  width: 40%;
+  margin: 20px 30px 20px 30px;
+  height: 900px;
+  justify-content: center;
+}
+
+.warparcontent2 {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* KAMINO HTML */
+
+/* JANGO */
+
+.kaminocontainer1 {
+  background-color: rgb(72, 68, 62);
+  display: flex;
+  width: 100%;
+  height: 800px;
+  justify-content: space-evenly;
+}
+
+.kaminosection1 {
+  display: flex;
+  margin-left: 20px;
+  padding: 0px;
+  align-self: center;
+}
+
+.kaminoDescription {
+  text-align: center;
+  margin-left: 25px;
+}
+
+/* KAMINO PARAGRAPH 1 */
+
+.kaminosection2 {
+  display: inline;
+  background: rgb(72, 68, 62);
+  width: 520px;
+  height: 600px;
+  margin-left: 60px;
+  align-self: center;
+}
+
+.kaminotitle1 {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 80px;
+  font-size: 3rem;
+}
+
+.kaminopar1 {
+  display: flex;
+  color: white;
+  margin: 20px 0 0 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+.kaminogalleryTitle {
+  color: orangered;
+  position: relative;
+  top: 22px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*KAMINO GALLERY*/
+
+.kaminocontainer2 {
+  display: flex;
+  background: rgb(60, 58, 54);
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-bottom: 10px solid whitesmoke;
+}
+
+.kaminoflex {
+  display: flex;
+  background-color: rgb(32, 24, 24);
+  width: 350px;
+  height: 325px;
+  margin: 40px 20px 80px 20px;
+  padding: 5px;
+  border: 2px solid orangered;
+}
+
+.kaminogallery {
+  background-color: black;
+  margin-top: -20px;
+  height: 80px;
+  text-align: center;
+}
+
+.kaminoimage1 {
+  display: flex;
+  background-image: url(Cody\ Images/Kamino\ Images/Creation-300x300.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kaminoimage2 {
+  display: flex;
+  background-image: url(Cody\ Images/Kamino\ Images/Clone-Kids-300x300.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kaminoimage3 {
+  display: flex;
+  background-image: url(Cody\ Images/Kamino\ Images/Clone-train-300x300.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kaminoimage4 {
+  display: flex;
+  background-image: url(Cody\ Images/Kamino\ Images/Fives-300x300.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kaminoimage5 {
+  display: flex;
+  background-image: url(Cody\ Images/Kamino\ Images/Kaminoans-300x300.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kaminocontainer3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+
+/* SKY PARAGRAPHS */
+
+.kaminosection3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 50%;
+  height: 100px;
+  margin: 20px 30px 20px 30px;
+  justify-content: center;
+}
+
+.kaminosection4 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 50%;
+  height: 100px;
+  margin: 20px 30px 20px 20px;
+  justify-content: center;
+}
+
+.kaminotitle2 {
+  display: flex;
+  color: orangered;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+
+.kaminocontainer4 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 600px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: space-around;
+}
+
+.kaminopar2 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 30%;
+  margin: 20px 30px 20px 30px;
+  height: 500px;
+  text-align: center;
+}
+.parcontent1 {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+}
+
+.parcontent2 {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+}
+
+.kaminopar3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  margin: 20px 30px 20px 30px;
+  width: 30%;
+  height: 500px;
+  text-align: center;
+}
+
+/* CODY ARMOUR HTML */
+
+/* PHASE 1*/
+
+.armourcontainer1 {
+  background-color: rgb(72, 68, 62);
+  display: flex;
+  width: 100%;
+  height: 800px;
+  justify-content: space-evenly;
+}
+
+.armoursection1 {
+  display: flex;
+  margin-left: 20px;
+  padding: 0px;
+  align-self: center;
+}
+
+.armourDescription {
+  text-align: center;
+  margin-left: 25px;
+}
+
+/* KAMINO PARAGRAPH 1 */
+
+.armoursection2 {
+  display: inline;
+  background: rgb(72, 68, 62);
+  width: 520px;
+  height: 600px;
+  margin-left: 60px;
+  align-self: center;
+}
+
+.armourtitle1 {
+  display: flex;
+  margin-left: 80px;
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.armourpar1 {
+  display: flex;
+  color: white;
+  margin: 20px 0 0 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+.armourgalleryTitle {
+  color: orangered;
+  position: relative;
+  top: 22px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*KAMINO GALLERY*/
+
+.armourcontainer2 {
+  display: flex;
+  background: rgb(60, 58, 54);
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-bottom: 10px solid whitesmoke;
+}
+
+.armourflex {
+  display: flex;
+  background-color: rgb(32, 24, 24);
+  width: 350px;
+  height: 325px;
+  margin: 40px 20px 80px 20px;
+  padding: 5px;
+  border: 2px solid orangered;
+}
+
+.armourgallery {
+  background-color: black;
+  margin-top: -20px;
+  height: 80px;
+  text-align: center;
+}
+
+.armourimage1 {
+  display: flex;
+  background-image: url(Cody\ Images/Armour\ Images/Gunship_cody-300x300.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.armourimage2 {
+  display: flex;
+  background-image: url(Cody\ Images/Armour\ Images/phase2-300x300.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.armourimage3 {
+  display: flex;
+  background-image: url(Cody\ Images/Armour\ Images/cw_nohelmetCody.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.armourimage4 {
+  display: flex;
+  background-image: url(Cody\ Images/Armour\ Images/HelmetC-300x300.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.armourimage5 {
+  display: flex;
+  background-image: url(Cody\ Images/Armour\ Images/Desix_cody-300x300.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.armourcontainer3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+
+/* ARMOUR PARAGRAPHS */
+
+.armoursection3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 50%;
+  height: 100px;
+  margin: 20px 30px 20px 30px;
+  justify-content: center;
+}
+
+.armoursection4 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 50%;
+  height: 100px;
+  margin: 20px 30px 20px 20px;
+  justify-content: center;
+}
+
+.armourtitle2 {
+  display: flex;
+  color: orangered;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+
+.armourcontainer4 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 100%;
+  height: 500px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: space-around;
+}
+
+.armourpar2 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  width: 30%;
+  margin: 20px 30px 20px 30px;
+  height: 500px;
+  text-align: center;
+}
+.parcontent1 {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+}
+
+.parcontent2 {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+}
+
+.armourpar3 {
+  display: flex;
+  background: rgb(72, 68, 62);
+  margin: 20px 30px 20px 30px;
+  width: 30%;
+  height: 500px;
+  text-align: center;
+}
+
+/* CONTACTS HTML */
+
+.contactcontainer1 {
+  display: inline-block;
+  background-color: rgb(73, 68, 62);
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+}
+
+.contactcontainer1 h1 {
+  display: flex;
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.contactparbox {
+  display: flex;
+  background-color: rgb(73, 68, 62);
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+}
+
+.contactparbox p {
+  display: flex;
+  width: 600px;
+  height: 100px;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.contactcontainer2 {
+  background-color: rgb(73, 68, 62);
+  display: flex;
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.contactsection2 {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsection2 img {
+  display: flex;
+  margin-right: 120px;
+}
+
+.contactsection2 figcaption {
+  display: flex;
+  margin: 10px 0 0 20px;
+  width: 400px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactsection3 {
+  display: flex;
+  width: 60%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.formcontainer {
+  display: flex;
+  background-color: rgb(32, 24, 24);
+  width: 600px;
+  height: 510px;
+  margin: 0 0 20px 0;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+
+legend h1{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: orangered;
+}
+
+.smallfieldset {
+  display: flex;
+  width: 500px;
+  height: 60px;
+  border: none;
+}
+
+ label h1{
+  display: inline-block;
+  color: orangered;
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.smallfield {
+  display: inline-block;
+}
+
+.smallfield input {
+  display: inline-block;
+  justify-content: space-between;
+  background-color: lightgray;
+  border: 2px solid orangered;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+  'Lucida Sans', Arial, sans-serif;
+}
+
+.largefield label h1 {
+  display: flex;
+  color: orangered;
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.largefield input {
+  display: inline-block;
+  justify-content: space-between;
+  background-color: lightgray;
+  border: 2px solid orangered;
+  width: 414px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+  'Lucida Sans', Arial, sans-serif;
+}
+
+.largefieldset {
+  display: flex;
+  width: 500px;
+  height: 130px;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  margin-top: 20px;
+  background-color: lightgray;
+  border: 2px solid orangered;
+  width: 414px;
+}
+
+.submitfieldset {
+  display: flex;
+  border: none;
+  width: 80px;
+  height: 20px;
+  padding-left: 12px;
+
+}
+
+.submitfieldset button {
+  display: flex;
+  background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+  'Lucida Sans', Arial, sans-serif;
+  border: 2px solid orangered;
+  color: orangered;
+  width: 100px;
+  height: 30px;
+  padding: 5px 0px 0px 28px;
+  margin: 0 10px 0 10px;
+}
+
+.submitfieldset button:hover {
+  color: black;
+  background-color: orangered;
+}
